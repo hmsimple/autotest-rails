@@ -2,11 +2,9 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
  
-require 'autotest/version'
- 
 Gem::Specification.new do |s|
-  s.name        = "autotest-rails-nragaz"
-  s.version     = Autotest::Rails::VERSION
+  s.name        = "autotest-rails"
+  s.version     = "4.1.2"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Ryan Davis", "Nick Ragaz"]
   s.email       = ["nick.ragaz@gmail.com"]
