@@ -5,7 +5,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'autotest/version'
  
 Gem::Specification.new do |s|
-  s.name        = "autotest-rails-nragaz"
+  s.name        = "autotest-rails"
   s.version     = Autotest::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Ryan Davis", "Nick Ragaz"]
